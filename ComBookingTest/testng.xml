@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="/ComBookingTest/src/main/java">
+        <classes>
+            <class name="AscendingPriceSortingTest">
+                <methods>
+                    <include name="AscendingPriceSorting"/>
+                </methods>
+            </class>
+            <class name="MinimumScoreFilterTest">
+                <methods>
+                    <include name="MinimumScoreFilter"/>
+                </methods>
+            </class>
+            <class name="OnlyAvailableVariantsOptionTest">
+                <methods>
+                    <include name="OnlyAvailableVariantsOption"/>
+                </methods>
+            </class>
+            <class name="PlacementsMinimumQuantityTest">
+                <methods>
+                    <include name="PlacementsMinimumQuantity"/>
+                </methods>
+            </class>
+            <class name="SalesLeaderOptionTest">
+                <methods>
+                    <include name="SalesLeaderOption"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
